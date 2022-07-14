@@ -57,10 +57,18 @@ public class WebForm extends PageObject {
         int randomFLIGHT1 = ThreadLocalRandom.current().nextInt(0, 10);
         allFlights.get(randomFLIGHT1).click();*/
 
-        List<WebElement> allFlights = driver.findElements(By.cssSelector("//*[name='outboundFlights']"));
+ /*       List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
+        Random ram=new random.nextInt(1,3);
+        if(!checkboxes.get(ram).isSelected)
+        {
+            checkboxes.get(ram).click();
+        }*/
+
+        List<WebElement> allFlights = driver.findElements(By.xpath("//*[@type='radio']"));
         int size = allFlights.size();
-        int randomFLIGHT = new Random().nextInt(size);
+        int randomFLIGHT = new Random().nextInt(0, size);
         allFlights.get(randomFLIGHT).click();
+
     }
 
 
