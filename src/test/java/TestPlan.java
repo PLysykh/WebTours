@@ -41,9 +41,9 @@ public class TestPlan {
         driver.switchTo().frame("body");
         driver.switchTo().frame("info");
         Thread.sleep(1000);
-        webForm.chooseDepartureCity();
+        webForm.selectDepartCity();
         Thread.sleep(2000);
-        webForm.chooseArrivalCity();
+        webForm.selectArrivalCity();
         Thread.sleep(2000);
         webForm.chooseDEPARTUREDATE();
         Thread.sleep(2000);
@@ -66,7 +66,7 @@ public class TestPlan {
         Thread.sleep(1000);
         webForm.chooseFLIGHT1();
         Thread.sleep(2000);
-        webForm.chooseFLIGHT2();
+ //       webForm.chooseFLIGHT2();
         Thread.sleep(2000);
         webForm.pressRESERVEFLIGHTS();
         Thread.sleep(2000);
