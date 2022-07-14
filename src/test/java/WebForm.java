@@ -57,7 +57,7 @@ public class WebForm extends PageObject {
         int randomFLIGHT1 = ThreadLocalRandom.current().nextInt(0, 10);
         allFlights.get(randomFLIGHT1).click();*/
 
-        List<WebElement> allFlights = driver.findElements(By.cssSelector("//input[name='outboundFlights']"));
+        List<WebElement> allFlights = driver.findElements(By.cssSelector("//*[name='outboundFlights']"));
         int size = allFlights.size();
         int randomFLIGHT = new Random().nextInt(size);
         allFlights.get(randomFLIGHT).click();
