@@ -1,22 +1,34 @@
-import org.apache.commons.lang.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.By;
-
-import java.nio.charset.Charset;
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
-import static org.openqa.selenium.support.locators.RelativeLocator.with;
 
-import static org.junit.jupiter.params.shadow.com.univocity.parsers.conversions.Conversions.toUpperCase;
+import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvValidationException;
 
 
 public class WebForm extends PageObject {
+
+    public void enterUSERNAMES() throws CsvValidationException, IOException {
+        String CSV_PATH = "C:\\Users\\plysykh\\IdeaProjects\\untitled3\\src\\test\\java\\resources\\users2.csv";
+        CSVReader csvReader = new CSVReader(new FileReader(CSV_PATH));
+        ;
+        String[] csvCell = csvReader.readNext();
+        String login = csvCell[0];
+        System.out.println(login);
+        String password = csvCell[1];
+        System.out.println(password);
+        driver.findElement(By.xpath("//input[@type='text']")).sendKeys(login);
+        driver.findElement(By.xpath("//input[@type='password']")).sendKeys(password);
+        driver.findElement(By.xpath("//input[@type='image']")).click();
+    }
 
     public void selectDepartCity(){
         List<WebElement> allDepart = driver.findElements(By.xpath("//*[@name='depart']/option"));
@@ -32,9 +44,9 @@ public class WebForm extends PageObject {
         allDepart.get(randomCITY).click();
     }
 
-    private final String USERNAME = "niklogin";
+//    private final String USERNAME = "niklogin";
 
-    private final String PASSWORD = "nikpassword";
+//    private final String PASSWORD = "nikpassword";
 
     public void chooseDEPARTUREDATE() {
         driver.findElement(By.name("departDate")).clear();
@@ -52,23 +64,10 @@ public class WebForm extends PageObject {
     }
 
     public void chooseFLIGHT1(){
-/*        List<WebElement> allFlights = driver.findElements(By.xpath("//*[contains(text(), 'outboundFlight')]"));
-        int size = allFlights.size();
-        int randomFLIGHT1 = ThreadLocalRandom.current().nextInt(0, 10);
-        allFlights.get(randomFLIGHT1).click();*/
-
- /*       List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
-        Random ram=new random.nextInt(1,3);
-        if(!checkboxes.get(ram).isSelected)
-        {
-            checkboxes.get(ram).click();
-        }*/
-
         List<WebElement> allFlights = driver.findElements(By.xpath("//*[@type='radio']"));
         int size = allFlights.size();
-        int randomFLIGHT = new Random().nextInt(0, size);
+        int randomFLIGHT = new Random().nextInt(size);
         allFlights.get(randomFLIGHT).click();
-
     }
 
 
@@ -128,7 +127,7 @@ public class WebForm extends PageObject {
 //    @FindBy(xpath = "/html/body/blockquote/form/center/table[1]/tbody/tr[5]/td[1]/input")
 //    private WebElement flight_1;
 
- //   @FindBy(xpath = "/html/body/blockquote/form/center/table[2]/tbody/tr[5]/td[1]/input")
+    //   @FindBy(xpath = "/html/body/blockquote/form/center/table[2]/tbody/tr[5]/td[1]/input")
 //   private WebElement flight_2;
 
     @FindBy(xpath = "/html/body/blockquote/form/center/center/table/tbody/tr/td[1]/input")
@@ -192,13 +191,13 @@ public class WebForm extends PageObject {
         driver.switchTo().frame("info");
     }
 
-    public void enterUSERNAME() {
-        this.username.sendKeys(USERNAME);
-    }
+//    public void enterUSERNAME() {
+//        this.username.sendKeys(USERNAME);
+//    }
 
-    public void enterPASSWORD() {
-        this.password.sendKeys(PASSWORD);
-    }
+//    public void enterPASSWORD() {
+//        this.password.sendKeys(PASSWORD);
+//    }
 
     public void pressLOGINBUTTON() {
         this.login.click();
@@ -310,4 +309,3 @@ public class WebForm extends PageObject {
         this.log_out.click();
     }
 }
-

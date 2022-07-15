@@ -1,3 +1,5 @@
+
+import com.opencsv.exceptions.CsvValidationException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -5,6 +7,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import org.openqa.selenium.support.ui.Select;
+
+import java.io.IOException;
 
 public class TestPlan {
     private static final WebDriver driver = new ChromeDriver();
@@ -14,8 +18,8 @@ public class TestPlan {
         System.setProperty("webdriver.chrome.driver", Utils.CHROME_DRIVER_LOCATION);
     }
 
-    @Test (testName = "WEBTOURS/NIKITA-TESTTESTTEST")
-    public static void All_Site_Quick_RUN() throws InterruptedException {
+    @Test(testName = "WEBTOURS/NIKITA-TESTTESTTEST")
+    public static void All_Site_Quick_RUN() throws InterruptedException, CsvValidationException, IOException {
         //Opening webpage and authorization
         driver.get(Utils.BASE_URL);
         driver.switchTo().frame("body");
@@ -23,11 +27,7 @@ public class TestPlan {
         WebForm webForm = new WebForm(driver);
         driver.manage().window().maximize();
         Thread.sleep(1000);
-        webForm.enterUSERNAME();
-        Thread.sleep(1000);
-        webForm.enterPASSWORD();
-        Thread.sleep(1000);
-        webForm.pressLOGINBUTTON();
+        webForm.enterUSERNAMES();
         Thread.sleep(2000);
 
         //Clicking Flights button
@@ -66,7 +66,7 @@ public class TestPlan {
         Thread.sleep(1000);
         webForm.chooseFLIGHT1();
         Thread.sleep(2000);
- //       webForm.chooseFLIGHT2();
+        //       webForm.chooseFLIGHT2();
         Thread.sleep(2000);
         webForm.pressRESERVEFLIGHTS();
         Thread.sleep(2000);
@@ -105,13 +105,10 @@ public class TestPlan {
         Thread.sleep(2000);
     }
 
-        @AfterSuite
-        public static void cleanup(){
+    @AfterSuite
+    public static void cleanup(){
         driver.manage().deleteAllCookies();
         driver.manage().window().minimize();
         driver.close();
     }
 }
-
-
-
