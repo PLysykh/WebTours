@@ -1,0 +1,19 @@
+{
+  "id" : "97fa0915-f69b-34b4-a072-c47d40dc4029",
+  "request" : {
+    "url" : "/cgi-bin/nav.pl?in=home",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cgi-bin-nav.pl-nOpk7.txt",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:51 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Expires" : "Tue, 19 Jul 2022 12:06:51 GMT",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "text/html; charset=ISO-8859-1"
+    }
+  },
+  "uuid" : "97fa0915-f69b-34b4-a072-c47d40dc4029"
+}

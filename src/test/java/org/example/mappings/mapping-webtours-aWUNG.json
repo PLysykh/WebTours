@@ -1,0 +1,21 @@
+{
+  "id" : "e1ff8a74-7a17-3c02-bef4-7c3f5dd981be",
+  "request" : {
+    "url" : "/webtours/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-webtours-aWUNG.txt",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:49 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Last-Modified" : "Mon, 27 May 2013 12:20:22 GMT",
+      "ETag" : "\"900000001a214-16e-4ddb22c2e6d80\"",
+      "Accept-Ranges" : "bytes",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "text/html"
+    }
+  },
+  "uuid" : "e1ff8a74-7a17-3c02-bef4-7c3f5dd981be"
+}

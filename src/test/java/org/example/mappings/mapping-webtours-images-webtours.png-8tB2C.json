@@ -1,0 +1,21 @@
+{
+  "id" : "c916bdbe-c196-3b9c-913b-0498ba06a9b3",
+  "request" : {
+    "url" : "/webtours/images/webtours.png",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-webtours-images-webtours.png-8tB2C.png",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:50 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Last-Modified" : "Mon, 04 Nov 2013 14:47:02 GMT",
+      "ETag" : "\"a00000001a259-105b-4ea5afd272580\"",
+      "Accept-Ranges" : "bytes",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "image/png"
+    }
+  },
+  "uuid" : "c916bdbe-c196-3b9c-913b-0498ba06a9b3"
+}

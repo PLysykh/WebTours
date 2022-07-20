@@ -1,0 +1,18 @@
+{
+  "id" : "c639608f-fb9b-3a0a-b870-496e252de3ca",
+  "request" : {
+    "url" : "/cgi-bin/welcome.pl?page=search",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cgi-bin-welcome.pl-Uale9.txt",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:54 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "text/html; charset=ISO-8859-1"
+    }
+  },
+  "uuid" : "c639608f-fb9b-3a0a-b870-496e252de3ca"
+}

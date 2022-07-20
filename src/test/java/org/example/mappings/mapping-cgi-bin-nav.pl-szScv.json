@@ -1,0 +1,19 @@
+{
+  "id" : "1c58df44-7897-3638-afca-c7ab7b8f4a7c",
+  "request" : {
+    "url" : "/cgi-bin/nav.pl?page=menu&in=flights",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cgi-bin-nav.pl-szScv.txt",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:54 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Expires" : "Tue, 19 Jul 2022 12:06:54 GMT",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "text/html; charset=ISO-8859-1"
+    }
+  },
+  "uuid" : "1c58df44-7897-3638-afca-c7ab7b8f4a7c"
+}

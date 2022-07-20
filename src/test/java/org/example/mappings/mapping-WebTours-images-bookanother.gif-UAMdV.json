@@ -1,0 +1,21 @@
+{
+  "id" : "33ef9886-1a74-3bf0-a50e-1ff9d384ddc2",
+  "request" : {
+    "url" : "/WebTours/images/bookanother.gif",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-WebTours-images-bookanother.gif-UAMdV.gif",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:57 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Last-Modified" : "Thu, 12 Jan 2012 14:30:26 GMT",
+      "ETag" : "\"900000001a229-326-4b65596d72480\"",
+      "Accept-Ranges" : "bytes",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "image/gif"
+    }
+  },
+  "uuid" : "33ef9886-1a74-3bf0-a50e-1ff9d384ddc2"
+}

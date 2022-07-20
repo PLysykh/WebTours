@@ -1,0 +1,19 @@
+{
+  "id" : "5b18b579-0b83-3519-9725-1d862e059259",
+  "request" : {
+    "url" : "/cgi-bin/welcome.pl?signOff=true",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cgi-bin-welcome.pl-CnGk5.txt",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:50 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Set-Cookie" : [ "MSO=SID&1658318810; path=/", "MTUserInfo=; path=/; expires=Tue, 19-Jul-2022 12:06:50 GMT" ],
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "text/html; charset=ISO-8859-1"
+    }
+  },
+  "uuid" : "5b18b579-0b83-3519-9725-1d862e059259"
+}

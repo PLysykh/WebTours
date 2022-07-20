@@ -1,0 +1,21 @@
+{
+  "id" : "65464a16-7568-3f80-8705-5f52bb2eba46",
+  "request" : {
+    "url" : "/WebTours/images/flights.gif",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-WebTours-images-flights.gif-ieZI0.gif",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:53 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Last-Modified" : "Thu, 12 Jan 2012 14:30:26 GMT",
+      "ETag" : "\"900000001a22d-2d6-4b65596d72480\"",
+      "Accept-Ranges" : "bytes",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "image/gif"
+    }
+  },
+  "uuid" : "65464a16-7568-3f80-8705-5f52bb2eba46"
+}

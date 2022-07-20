@@ -1,0 +1,19 @@
+{
+	"id": "fdf8d147-0d6e-36be-8bdb-79b0e28b13a8",
+	"request": {
+		"url": "/cgi-bin/reservations.pl",
+		"method": "POST"
+	},
+	"response": {
+		"status": 200,
+		"bodyFileName": "body-cgi-bin-reservations.pl-EuT4v.txt",
+		"headers": {
+			"Date": "Wed, 20 Jul 2022 12:06:55 GMT",
+			"Server": "Apache/2.2.21 (Win32)",
+			"Expires": "Tue, 19 Jul 2022 12:06:55 GMT",
+			"Keep-Alive": "timeout=5, max=100",
+			"Content-Type": "text/html; charset=ISO-8859-1"
+		}
+	},
+	"uuid": "fdf8d147-0d6e-36be-8bdb-79b0e28b13a8"
+}

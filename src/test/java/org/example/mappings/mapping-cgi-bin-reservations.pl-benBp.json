@@ -1,0 +1,19 @@
+{
+	"id": "defb5a9d-5cf4-367d-a801-1c7f42fb9486",
+	"request": {
+		"url": "/cgi-bin/reservations.pl?page=welcome",
+		"method": "GET"
+	},
+	"response": {
+		"status": 200,
+		"bodyFileName": "body-cgi-bin-reservations.pl-benBp.txt",
+		"headers": {
+			"Date": "Wed, 20 Jul 2022 12:06:54 GMT",
+			"Server": "Apache/2.2.21 (Win32)",
+			"Expires": "Tue, 19 Jul 2022 12:06:54 GMT",
+			"Keep-Alive": "timeout=5, max=100",
+			"Content-Type": "text/html; charset=ISO-8859-1"
+		}
+	},
+	"uuid": "defb5a9d-5cf4-367d-a801-1c7f42fb9486"
+}

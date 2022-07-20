@@ -1,0 +1,21 @@
+{
+  "id" : "2e604346-77fa-38ab-9036-877bb61aa78c",
+  "request" : {
+    "url" : "/webtours/images/hp_logo.png",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-webtours-images-hp_logo.png-h11Xp.png",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:50 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Last-Modified" : "Thu, 12 Jan 2012 14:30:26 GMT",
+      "ETag" : "\"900000001a232-259-4b65596d72480\"",
+      "Accept-Ranges" : "bytes",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "image/png"
+    }
+  },
+  "uuid" : "2e604346-77fa-38ab-9036-877bb61aa78c"
+}

@@ -1,0 +1,19 @@
+{
+  "id" : "41c79aac-655f-3c6d-9cab-c548ddd6faa1",
+  "request" : {
+    "url" : "/cgi-bin/itinerary.pl",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cgi-bin-itinerary.pl-kSXPU.txt",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:57 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Expires" : "Tue, 19 Jul 2022 12:06:57 GMT",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "text/html; charset=ISO-8859-1"
+    }
+  },
+  "uuid" : "41c79aac-655f-3c6d-9cab-c548ddd6faa1"
+}

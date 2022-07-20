@@ -1,0 +1,21 @@
+{
+  "id" : "3d4285cf-5eb1-3976-88a9-60ff628eb657",
+  "request" : {
+    "url" : "/WebTours/images/in_home.gif",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-WebTours-images-in_home.gif-ei0t2.gif",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:53 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Last-Modified" : "Thu, 12 Jan 2012 14:30:26 GMT",
+      "ETag" : "\"700000001a234-2b0-4b65596d72480\"",
+      "Accept-Ranges" : "bytes",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "image/gif"
+    }
+  },
+  "uuid" : "3d4285cf-5eb1-3976-88a9-60ff628eb657"
+}

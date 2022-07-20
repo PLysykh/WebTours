@@ -1,0 +1,19 @@
+{
+	"id": "cb0fba14-7a37-3813-810c-8b5d1d1b22e4",
+	"request": {
+		"url": "/cgi-bin/login.pl",
+		"method": "POST"
+	},
+	"response": {
+		"status": 200,
+		"bodyFileName": "body-cgi-bin-login.pl-WFvK3.txt",
+		"headers": {
+			"Date": "Wed, 20 Jul 2022 12:06:52 GMT",
+			"Server": "Apache/2.2.21 (Win32)",
+			"Expires": "5s",
+			"Keep-Alive": "timeout=5, max=100",
+			"Content-Type": "text/html; charset=ISO-8859-1"
+		}
+	},
+	"uuid": "cb0fba14-7a37-3813-810c-8b5d1d1b22e4"
+}

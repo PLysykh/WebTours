@@ -1,0 +1,19 @@
+{
+  "id" : "0d89cca4-5c2c-352d-9101-498f97b6cddb",
+  "request" : {
+    "url" : "/cgi-bin/nav.pl?page=menu&in=itinerary",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cgi-bin-nav.pl-ts7Gi.txt",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:57 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Expires" : "Tue, 19 Jul 2022 12:06:57 GMT",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "text/html; charset=ISO-8859-1"
+    }
+  },
+  "uuid" : "0d89cca4-5c2c-352d-9101-498f97b6cddb"
+}

@@ -1,0 +1,19 @@
+{
+  "id" : "428c25da-9e6c-365a-aa95-4e35ce691363",
+  "request" : {
+    "url" : "/cgi-bin/login.pl?intro=true",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-cgi-bin-login.pl-TkCnl.txt",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:52 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Expires" : "5s",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "text/html; charset=ISO-8859-1"
+    }
+  },
+  "uuid" : "428c25da-9e6c-365a-aa95-4e35ce691363"
+}

@@ -1,0 +1,21 @@
+{
+  "id" : "ebe2f41a-11e2-3830-9d86-931c0b019d05",
+  "request" : {
+    "url" : "/WebTours/home.html",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-WebTours-home.html-0Wpaf.txt",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:51 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Last-Modified" : "Mon, 27 May 2013 12:20:22 GMT",
+      "ETag" : "\"900000001a212-551-4ddb22c2e6d80\"",
+      "Accept-Ranges" : "bytes",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "text/html"
+    }
+  },
+  "uuid" : "ebe2f41a-11e2-3830-9d86-931c0b019d05"
+}

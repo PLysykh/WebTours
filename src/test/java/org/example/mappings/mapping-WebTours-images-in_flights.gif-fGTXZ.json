@@ -1,0 +1,21 @@
+{
+  "id" : "e776b51e-fbdf-3951-adc7-c2e8d36ada77",
+  "request" : {
+    "url" : "/WebTours/images/in_flights.gif",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-WebTours-images-in_flights.gif-fGTXZ.gif",
+    "headers" : {
+      "Date" : "Wed, 20 Jul 2022 12:06:59 GMT",
+      "Server" : "Apache/2.2.21 (Win32)",
+      "Last-Modified" : "Thu, 12 Jan 2012 14:30:26 GMT",
+      "ETag" : "\"900000001a233-2d6-4b65596d72480\"",
+      "Accept-Ranges" : "bytes",
+      "Keep-Alive" : "timeout=5, max=100",
+      "Content-Type" : "image/gif"
+    }
+  },
+  "uuid" : "e776b51e-fbdf-3951-adc7-c2e8d36ada77"
+}
